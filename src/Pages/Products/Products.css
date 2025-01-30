@@ -1,0 +1,110 @@
+.products{
+    width: 100%
+}
+
+.products .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+.products-title{
+    width: 100%;
+    height: 7rem;
+    background-color: #F4F4F4;
+    color: #000;
+    font-family: 'Lobster';
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    line-height: 7rem;
+    text-transform: capitalize;
+}
+
+.products-wrapper{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: calc(0.035*75%);
+}
+
+.product-cards-item{
+    width: 31%;
+    box-shadow: 0 0 4px #CCC;
+    border-radius: 0.4rem;
+    margin: 0.8rem 0;
+}
+
+.categories-list{
+    width: 23.5%;
+    height: 18rem;
+    background-color: #F4F4F4;
+    border-radius: 0.4rem;
+    margin: 0.8rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-list-title{
+    width: 85%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px #BBB;
+    font-family: 'Lobster';
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: #A82704;
+}
+
+.categories-list ul {
+    width: 100%;
+    height: 100%;
+    padding: 1.8rem;
+    padding-bottom: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.categories-list-item .link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-decoration: none;
+    color: #444;
+}
+
+.categories-list-item .link:hover{
+    color: #000;
+}
+
+.categories-list-item-icon{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.2rem;
+    color: #A82704;
+}
+
+.categories-list-item-icon > svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products-page .footer{
+    background-color: #F4F4F4;
+    padding-top: 1.5rem;
+}

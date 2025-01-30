@@ -1,0 +1,60 @@
+.nopage {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nopage-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nopage-error {
+    font-size: 8rem;
+    line-height: 8rem;
+    font-weight: normal;
+    font-family: 'Lobster';
+    color: #A82704;
+}
+
+.nopage-title {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 4rem;
+    font-weight: bold;
+}
+
+.nopage-img {
+    width: 70%;
+    height: 8rem;
+    object-fit: contain;
+}
+
+.nopage-btn {
+    width: 100%;
+    height: 3rem;
+    background-color: #A82704;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+
+.nopage-btn .link{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    font-family: 'Poppins Regular';
+    text-decoration: none;
+    line-height: 3rem;
+} 
+
+.nopage-btn .nopage-btn:hover {
+    background-color: #892205;
+    border-radius: 0.4rem;
+}

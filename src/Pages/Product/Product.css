@@ -1,0 +1,120 @@
+.product-page{
+    margin-top: 1rem;
+}
+
+.product-address{
+    font-size: 0.9rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: #444;
+}
+
+.product-address .link{
+    font-size: 0.9rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: #444;
+}
+
+.product-address .link:hover{
+    color: #000;
+}
+
+.product-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+.product-information{
+    width: 50%;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-title{
+    margin-right: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2.5rem;
+}
+
+.product-description{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: #444;
+    margin-bottom: 3rem;
+}
+
+.product-information > div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.product-price{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #333;
+    margin-right: 4rem;
+}
+
+.product-add-btn{
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    background-color: #A82704;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.product-add-btn :hover{
+    background-color: #892205;
+    border-radius: 0.4rem;
+}
+
+.product-add-btn .link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.product-add-btn-icon{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.2rem;
+}
+
+.product-add-btn-icon > svg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-img{
+    width: 50%;
+    height: 20rem;
+    padding: 0 2rem;
+    object-fit: contain;
+}
+
+.product-page .footer{
+    background-color: #F4F4F4;
+    padding-top: 1.5rem;
+}

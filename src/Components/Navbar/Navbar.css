@@ -1,0 +1,128 @@
+.header {
+    padding: 1rem 0;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo .link {
+    font-size: 2.8rem;
+    font-family: 'Lobster';
+    text-decoration: none;
+    font-weight: lighter;
+    color: #A82704;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-item .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.5rem 2rem 0.5rem 0;
+    color: #666;
+    font-weight: lighter;
+}
+
+.nav-item :hover {
+    color: #000;
+}
+
+.nav :nth-child(2){
+    position: relative;
+}
+
+.nav-item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    margin-right: 0.3rem;
+}
+
+.nav-item-icon :first-of-type{
+    margin-right: 0;
+    margin-left: 0.3rem;
+}
+
+.categories-dropdown{
+    display: none;
+    position: absolute !important;
+    width: 10rem;
+    top: 2.2rem;
+    left: -2rem;
+    z-index: 10;
+    background-color: #666;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    transition: display 0.5s 2ms ease-in;
+}
+
+.categories-dropdown ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    border-radius: 0.3rem;
+}
+
+.categories-dropdown-item{
+    width: 100%;
+    border-bottom: solid 0.15rem #666;
+}
+
+.categories-dropdown ul :last-child{
+    border: none;
+}
+
+.categories-dropdown-item .link{
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 0.6rem 0;
+    color: #666;
+    transition:
+    font-size 0.05s 2ms ease-in,
+    color 0.05 2ms ease-in;
+}
+
+.categories-dropdown-item .link:hover{
+    font-size: 0.9rem;
+    color: #000;
+}
+
+.cart-products-counter{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.3rem;
+    border-radius: 100%;
+    background-color: #A82704;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    font-weight: normal;
+    color: #FFF;
+}
+
+.cart-products-counter:hover{
+    color: #FFF;
+}
